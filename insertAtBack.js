@@ -297,7 +297,7 @@ class SinglyLinkedList {
     // splitOnVal(5) for the list (1=>3=>5=>2=>4) will change list to (1=>3)
     // and the return value will be a new list containing (5=>2=>4)
     if (this.isEmpty() || this.head.next == null) {
-      console.log('This list is empty or has only one node.');
+      console.log("This list is empty or has only one node.");
       return this;
     }
 
@@ -316,7 +316,6 @@ class SinglyLinkedList {
     }
 
     return this;
-
   }
 
   // BONUS:
@@ -324,7 +323,7 @@ class SinglyLinkedList {
     // Insert a new node before a node that has the given targetVal as its data.
     // Return a boolean indicating whether the node was pre-pended or not.
     if (this.isEmpty()) {
-      console.log('This list is empty.');
+      console.log("This list is empty.");
       return false;
     }
 
@@ -344,7 +343,6 @@ class SinglyLinkedList {
 
     return false;
   }
-
 }
 
 const newList = new SinglyLinkedList();
